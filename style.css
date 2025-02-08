@@ -200,7 +200,7 @@ header .navbar {
   background: var(--light-pink-color);
 }
 
-.about-section .ection-content {
+.about-section .section-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -217,6 +217,9 @@ header .navbar {
   padding: 0;
 }
 
+.about-section .about-details {
+  max-width: 50%;
+}
 .about-section .about-details .text {
   line-height: 30px;
   margin: 50px 0 30px;
@@ -240,6 +243,33 @@ header .navbar {
   color: var(--secondary-color);
 }
 
+/* Menu Section Styiling */
+
+.menu-section {
+  color: var(--white-color);
+  background: var(--dark-color);
+}
+.menu-section .menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 110px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-section .menu-list .menu-item {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  width: calc(100% / 3 - 110px);
+}
+
+.menu-section .menu-list .menu-item .menu-image {
+  max-width: 83%;
+  aspect-ratio: 1;
+}
 
 /* responsive media query code for max width 900px */
 @media screen and (max-width: 900px) {
