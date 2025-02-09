@@ -11,9 +11,8 @@ menuCloseButton.addEventListener("click", () => menuOpenButton.click ());
 
 // Initialize Swipper
 const swiper = new Swiper('.slider-wrapper', {
-    // Optional parameters
-    direction: 'vertical',
     loop: true,
+    spaceBetween: 25,
   
     // If we need pagination
     pagination: {
@@ -25,4 +24,16 @@ const swiper = new Swiper('.slider-wrapper', {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
+
+    breakpoints: {
+      0: {
+        slidesPerView: 1
+      },
+      768: {
+        slidesPerView: 2
+      },
+      1024: {
+        slidesPerView: 3
+      },
+    }
   });
