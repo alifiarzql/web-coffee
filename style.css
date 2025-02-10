@@ -286,7 +286,9 @@ header .navbar {
 
 /* Testimonials section styling */
 
-
+.testimonials-section {
+  padding: 50px 0 100px;
+}
 
 .testimonials-section .testimonial {
   display: flex;
