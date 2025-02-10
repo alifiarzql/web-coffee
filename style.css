@@ -62,7 +62,6 @@ img {
 .section-content {
   margin: 0 auto;
   padding: 0 100px;
-  
   max-width: var(--site-max-width);
 }
 
@@ -286,10 +285,8 @@ header .navbar {
 }
 
 /* Testimonials section styling */
-.testimonials-section {
-  padding: 50px 0 100px;
-  
-}
+
+
 
 .testimonials-section .testimonial {
   display: flex;
@@ -322,8 +319,7 @@ header .navbar {
 .testimonials-section .swiper-pagination-bullet {
   width: 15px;
   height: 15px;
-  opacity: 1;
-  
+  opacity: 1;  
 }
 
 .swiper {
